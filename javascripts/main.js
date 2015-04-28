@@ -7,3 +7,6 @@ function buttonClick() {
 $('#jQueryBtn').click(function() {
     alert("Well, hello there jQuery");
 });
+
+var el = document.getElementById("EventListener");
+el.addEventListener("click", buttonClick, false);

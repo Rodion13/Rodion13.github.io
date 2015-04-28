@@ -26,7 +26,7 @@ $('#SuccessBtn').click(function(){
         $('#display').text(input);
     }
     else {
-        $(successClass).hide(200);
+        $(successClass).hide();
         $(dangerClass).show(200);
     }
 });

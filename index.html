@@ -7,10 +7,10 @@
     <meta name="description" content="Rodion Yaryy : Connecting to clouds socially or via ssh ">
 
     <link rel ="stylesheet" type="text/css" media="screen" href="stylesheets/bootstrap.css">
-
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/main.css">
 
-    <title>Rodion Yaryy</title>
+      <title>Rodion Yaryy</title>
   </head>
 
   <body>
@@ -29,26 +29,51 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Projects Page.</h3>
+        <h2>
 
-<a href="http://rodion13.github.io/gh-pages/" class="btn btn-primary btn-lg">Project</a>
+            <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Learning by doing</h2>
 
-<a onclick="buttonClick()" class="btn btn-primary btn-lg">JavaScript</a>
+            <h4>Fire Events on Button click</h4>
 
-<a id="jQueryBtn" class="btn btn-primary btn-lg">jQuery</a>
+            <p>Getting a fresh start on learning JavaScript by completing and working on mini projects.
+                Look into different ways to trigger click buttons events using either JavaScript or jQuery. </p>
 
-<a id="EventListener" class="btn btn-primary btn-lg">Event Listener</a>
+            <a href="http://rodion13.github.io/gh-pages/" class="btn btn-primary btn-lg">Project</a>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+            <a onclick="buttonClick()" class="btn btn-primary btn-lg">JavaScript</a>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+            <a id="jQueryBtn" class="btn btn-primary btn-lg">jQuery</a>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+            <a id="EventListener" class="btn btn-primary btn-lg">Event Listener</a>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="https://help.github.com/pages">https://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+            <div>
+
+                <h4>Input Validation</h4>
+
+                <p>This exercise is designed to validate input field using JavaScript & jQuery.
+                    If the input field is empty, return error message on button click.
+                    If input field is populated return success message with text from input field. </p>
+
+                <h5><a class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Yo! Give me some text:</h5>
+
+                <div class="form-group">
+                    <input class="form-control" type="text" id="inputSmall">
+                    <a id='SuccessBtn'class="btn btn-primary">click</a>
+                </div>
+
+                <div id="messaging"  >
+                    <div class="alert alert-dismissible alert-success" class="hidden">
+                        <button type="button" class="close" data-dismiss="alert">×</button>
+                        <strong>Well done! Your text is: <i id="display"></i></strong>
+                    </div>
+
+                    <div class="alert alert-dismissible alert-danger" class="hidden" >
+                        <button type="button" class="close" data-dismiss="alert">×</button>
+                        <strong>Oh man! Try to give me some text.</strong>
+                    </div>
+                </div>
+            </div>
+
       </section>
     </div>
 

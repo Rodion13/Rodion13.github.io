@@ -21,11 +21,13 @@ $('#SuccessBtn').click(function(){
     var input = $('#inputSmall').val()
 
     if(input) {
+        $(dangerClass).hide();
         $(successClass).show(200);
         $('#display').text(input);
     }
     else {
-       $(dangerClass).show(200);
+        $(successClass).hide(200);
+        $(dangerClass).show(200);
     }
 });
 
